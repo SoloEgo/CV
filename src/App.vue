@@ -21,7 +21,7 @@ const openMenu = () => {
         <RouterLink to="/about" @click="openMenu"><i class="bi bi-info-square"></i> About</RouterLink>
         <RouterLink to="/portfolio" @click="openMenu"><i class="bi bi-gear"></i> Portfolio</RouterLink>
       </nav>
-      <a href="./public/Egor-Soloviev-CV.pdf" download class="download_link"><i class="bi bi-file-earmark-pdf"></i> Download
+      <a href="`${publicPath}Egor-Soloviev-CV.pdf`" download class="download_link"><i class="bi bi-file-earmark-pdf"></i> Download
         CV</a>
     </div>
     <div class="header-content">
@@ -205,3 +205,12 @@ nav {
   }
 }
 </style>
+<script>
+export default {
+  data () {
+    return {
+      publicPath: process.env.BASE_URL
+    }
+  }
+}
+</script>
