@@ -21,7 +21,7 @@ const openMenu = () => {
         <RouterLink to="/about" @click="openMenu"><i class="bi bi-info-square"></i> About</RouterLink>
         <RouterLink to="/portfolio" @click="openMenu"><i class="bi bi-gear"></i> Portfolio</RouterLink>
       </nav>
-      <a href="./cv/cv_soloviev_egor.pdf" download class="download_link"><i class="bi bi-file-earmark-pdf"></i> Download
+      <a href="./public/Egor-Soloviev-CV.pdf" download class="download_link"><i class="bi bi-file-earmark-pdf"></i> Download
         CV</a>
     </div>
     <div class="header-content">
