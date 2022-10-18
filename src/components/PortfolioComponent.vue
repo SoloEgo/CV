@@ -6,7 +6,7 @@ import json from "../assets/portfolio.json";
 <template>
     <PortfolioItem v-for="project in projects" :key="project.title">
         <template #image><img :src="project.image"></template>
-        <template #title>{{ project.title }}</template>
+        <template #title v-html="project.title"></template>
         <template #summary>{{ project.summary }}</template>
         <template #moreButton><a class="btn btn-primary" @click="showDescription(project.title)" data-bs-toggle="modal" data-bs-target="#staticBackdrop">More</a></template>
     </PortfolioItem>
@@ -55,4 +55,5 @@ export default {
 .portfolio .hidden {
     display: none;
 }
+
 </style>
