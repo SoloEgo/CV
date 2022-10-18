@@ -4,7 +4,7 @@ import PortfolioComponent from '../components/PortfolioComponent.vue'
 
 <template>
   <div class="portfolio">
-    <h1>What i`ve done</h1>
+    <h1>Portfolio</h1>
     <div class="card-view">
       <PortfolioComponent />
     </div>
