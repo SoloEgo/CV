@@ -1,19 +1,19 @@
 {
     "projects": [
         {
-            "image": "/src/assets/imh.jpg",
+            "image": "@/assets/imh.jpg",
             "title": "Oracle BI system",
             "summary": "A convenient and flexible system provides users with almost online data on the companies included in the holding",
             "description": "<ul><li>Developed and maintain business intelligence system based on Oracle BI (creating DWH, repos, dashboards etc.)</li><li>Improving company productivity by automatization most of the business processes, almost eliminated process involving manually collecting and transporting data from multiple sources to the one system.</li><li>Reducing decision-making time due to convenient and visual presentation of data (including by customizing the visual display of data, everyday reports via emails).</li><li>By improving the ui / ux design, we have minimized the access time to critical data.</li><li>Today, the top management of the company can access critical data due to an ecosystem of business tools (mobile, desktop and web application) that extremely expands the ability to access data from anywhere in the world</li></ul>"
         },
         {
-            "image": "/src/assets/imh.jpg",
+            "image": "@/assets/imh.jpg",
             "title": "BI iOS app",
             "summary": "Native Ios app provides users most critical data wherever they are!",
             "description": ""
         },
         {
-            "image": "/src/assets/imhTV.jpg",
+            "image": "@/assets/imhTV.jpg",
             "title": "BI tvOS app",
             "summary": "Native tvOS app helps users to be up to date with world and company news, although company's production and financial data",
             "description": ""
