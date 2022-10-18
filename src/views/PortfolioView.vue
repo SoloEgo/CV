@@ -26,10 +26,12 @@ import PortfolioComponent from '../components/PortfolioComponent.vue'
 }
 
 .card-view .card img {
-  width: 100%;
   position: absolute;
   top: 0;
   left: 0;
+  height: 100%;
+  left: 50%;
+  margin-left: -50%;
 }
 
 .card-view .card {

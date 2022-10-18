@@ -19,7 +19,7 @@
             "description": ""
         },
         {
-            "image": "favicon.ico",
+            "image": "crm.jpg",
             "title": "CRM",
             "summary": "Crm system based on Vue.js/Node.js/Firebase",
             "description": "<a href=\"https://egor-super-crm.netlify.app\" target=\"_blank\">My crm system</a>"
