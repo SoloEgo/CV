@@ -21,7 +21,7 @@
         {
             "image": "favicon.ico",
             "title": "CRM",
-            "summary": "My project - build crm system based on Vue.js/Node.js/Firebase",
+            "summary": "<a href=\"https://egor-super-crm.netlify.app\"> - crm system based on Vue.js/Node.js/Firebase",
             "description": ""
         }
     ]
