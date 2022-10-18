@@ -18,7 +18,6 @@ const openMenu = () => {
       <div class="close-btn" @click="openMenu"><i class="bi bi-x"></i></div>
       <nav>
         <RouterLink to="/" @click="openMenu"><i class="bi bi-house"></i> Home</RouterLink>
-        <RouterLink to="/about" @click="openMenu"><i class="bi bi-info-square"></i> About</RouterLink>
         <RouterLink to="/portfolio" @click="openMenu"><i class="bi bi-gear"></i> Portfolio</RouterLink>
       </nav>
       <a href="Egor-Soloviev-CV.pdf" download class="download_link"><i class="bi bi-file-earmark-pdf"></i> Download
@@ -52,7 +51,7 @@ header {
 .header-nav {
   background: var(--bs-blue);
   border-radius: 10px;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .header-content {
@@ -142,7 +141,7 @@ nav {
     background: var(--bs-blue);
     color: #fff;
     display: flex;
-    width: fit-content;
+    width: 45px;
     aspect-ratio: 1/1;
     align-items: center;
     justify-content: center;

@@ -19,20 +19,6 @@ const router = createRouter({
       }
     },
     {
-      path: '/about',
-      name: 'about',
-      component: () => import('../views/AboutView.vue'),
-      meta: {
-        title: 'Soloviev Egor CV',
-        metaTags: [
-          {
-            name: 'description',
-            content: 'This is the app provides my CV'
-          }
-        ]
-      }
-    },
-    {
       path: '/portfolio',
       name: 'portfolio',
       component: () => import('../views/PortfolioView.vue'),
