@@ -16,8 +16,8 @@ import PortfolioComponent from '../components/PortfolioComponent.vue'
   margin-top: 1rem;
 }
 
-.portfolio h1{
- text-align: center;
+.portfolio h1 {
+  text-align: center;
 }
 
 .card-view {
@@ -51,6 +51,12 @@ p.card-text {
   width: 100%;
   aspect-ratio: 1/0.7;
   overflow: hidden;
+}
+
+@media (max-width: 600px) {
+  .card-view {
+    grid-template-columns: 1fr;
+  }
 }
 </style>
   
