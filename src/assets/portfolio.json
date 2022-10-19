@@ -10,19 +10,19 @@
             "image": "imh.jpg",
             "title": "BI iOS app",
             "summary": "Native Ios app provides users most critical data wherever they are!",
-            "description": ""
+            "description": "<p>Despite the fact that Oracle already has a mobile application for BI. It was decided to create our own application that would meet the increased requirements of users in terms of user interface and business. Thanks to the right decisions in the design, the time to search for the necessary data was minimized.</p>"
         },
         {
             "image": "imhTV.jpg",
             "title": "BI tvOS app",
             "summary": "Native tvOS app helps users to be up to date with world and company news, although company's production and financial data",
-            "description": ""
+            "description": "<p>My initiative was to create an application for the TV that is installed in our company. It allows you to keep abreast of the latest news of the world and our company, which has many enterprises throughout the country, as well as see the latest data of all enterprises.</p>"
         },
         {
             "image": "crm.jpg",
             "title": "CRM",
-            "summary": "Crm system based on Vue.js/Node.js/Firebase",
-            "description": "<a href=\"https://egor-super-crm.netlify.app\" target=\"_blank\">My crm system</a>"
+            "summary": "Crm system based on Vue.js/Firebase",
+            "description": "<p>Please feel free to visit <a href=\"https://egor-super-crm.netlify.app\" target=\"_blank\">My crm system</a></p><p>Mobile version is not ready yet so please visit it from desctop for more experience</p><p>You can Sign up or use admin credintails:<br>Login: admin@admin.com<br>Password: qwertyuiop</p><p>At my free time i develop crm system from scratch based on Vuejs on frontend and Firebase on a backend</p><p>This system proveides users: <ul><li>All information about users sales, task and etc on dashboar page at Home</li><li>Create new contractors or edit eixisting one. Yhis model contains some data about contractor like Name, contact information and description</li><li>Create or edit sales(deals). This page can be presented in 2 styles table view or Kanban style. There are 5 statuses of sale which can be applied to sale. This page helps manager to be up to date with all his sales</li><li>Tasks - powerfull service which helps users to be up to date with his tasks. It also can be presented in 2 styles - Kanban and calendar. User can create new task with different parametrs like resposible manager, deadline and also start to track time for this task</li></ul>Also there is section for admin users who can <ul><li>Create and manage users and their roles</li><li>Create and manage departments and set users for department</li><li>Send notifications to users in real time</li></ul>One of the main feature of this system is online chat where users can <ul><li>Send messages and emojis</li><li>Send files</li><li>Create group chats</li><li>Add and remove users from group chats</li></ul></p>"
         }
     ]
 }
