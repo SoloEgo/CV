@@ -55,6 +55,16 @@ p.card-text {
   overflow: hidden;
 }
 
+.modal-img img {
+    width: 35%;
+}
+
+.modal-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 @media (max-width: 600px) {
   .card-view {
     grid-template-columns: 1fr;
