@@ -20,8 +20,11 @@ const openMenu = () => {
         <RouterLink to="/" @click="openMenu"><i class="bi bi-house"></i> Home</RouterLink>
         <RouterLink to="/portfolio" @click="openMenu"><i class="bi bi-gear"></i> Portfolio</RouterLink>
       </nav>
-      <a href="Egor-Soloviev-CV.pdf" download class="download_link"><i class="bi bi-file-earmark-pdf"></i> Download
-        CV</a>
+      <div class="usefull_links">
+        <a href="https://github.com/SoloEgo?tab=repositories" target="_blank"><i class="bi bi-github"></i>My GitHub</a>
+        <a href="Egor-Soloviev-CV.pdf" download class="download_link"><i class="bi bi-file-earmark-pdf"></i>Download
+          CV</a>
+      </div>
     </div>
     <div class="header-content">
       <div class="logo-img"><img alt="Profile photo" class="logo" src="@/assets/solovev_ea.jpg" /></div>
@@ -115,7 +118,7 @@ nav {
   display: none;
 }
 
-.header-nav a.download_link {
+.header-nav a {
   color: var(--vt-c-text-light);
   text-decoration: none;
   padding: 0.5rem 1rem;
@@ -125,10 +128,22 @@ nav {
 }
 
 .header-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+
+.usefull_links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.usefull_links i {
+  margin-right: 5px;
+}
+
+
 
 /*@media (min-width: 1024px) {
   header {}
@@ -201,6 +216,11 @@ nav {
     right: 10px;
     top: 10px;
     z-index: 100;
+  }
+
+  nav a {
+    width: fit-content;
+    margin-bottom: 20px;
   }
 }
 </style>
