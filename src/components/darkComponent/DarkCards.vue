@@ -109,6 +109,9 @@
     .content_card_holder {
         flex-wrap: wrap;
     }
+    .content_card_holder:before, .content_card_holder:after {
+        display: none;
+    }
 
     .black_card {
         margin: 15px 0;
