@@ -112,6 +112,7 @@
 
     .black_card {
         margin: 15px 0;
+        z-index: 10;
     }
 }
 </style>

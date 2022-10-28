@@ -58,4 +58,10 @@ export default {
     width: 5px;
     display: block;
 }
+
+@media (max-width: 600px) {
+    .pills_skills_holder {
+        grid-template-columns: 1fr 1fr;
+    }
+}
 </style>
