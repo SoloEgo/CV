@@ -1,5 +1,5 @@
 <script setup>
-import PortfolioComponent from '../components/PortfolioComponent.vue'
+import PortfolioComponent from '../components/lightComponent/PortfolioComponent.vue'
 </script>
 
 <template>

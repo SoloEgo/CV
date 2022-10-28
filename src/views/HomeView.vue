@@ -1,6 +1,6 @@
 <script setup>
-import ContentItem from '../components/ContentItem.vue'
-import SkillsItem from '../components/SkillsItem.vue'
+import ContentItem from '../components/lightComponent/ContentItem.vue'
+import SkillsItem from '../components/lightComponent/SkillsItem.vue'
 </script>
 
 <template>

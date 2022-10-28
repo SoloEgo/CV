@@ -1,6 +1,6 @@
 <script setup>
-import PortfolioItem from './PortfolioItem.vue'
-import json from "../assets/portfolio.json";
+import PortfolioItem from '@/components/lightComponent/PortfolioItem.vue'
+import json from "@/assets/portfolio.json";
 </script>
 
 <template>

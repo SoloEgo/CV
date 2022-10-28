@@ -1,6 +1,6 @@
 <script setup>
-import DescriptionItem from './DescriptionItem.vue'
-import ContentBreaker from './ContentBreaker.vue'
+import DescriptionItem from '@/components/lightComponent/DescriptionItem.vue'
+import ContentBreaker from '@/components/lightComponent/ContentBreaker.vue'
 import { ref, onMounted } from 'vue'
 const count = ref(0)
 

@@ -1,5 +1,5 @@
 <script setup>
-import SkillRow from '../components/SkillRow.vue'
+import SkillRow from '@/components/lightComponent/SkillRow.vue'
 </script>
 
 
