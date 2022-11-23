@@ -63,6 +63,7 @@ p.card-text {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 2rem;
 }
 
 @media (max-width: 600px) {

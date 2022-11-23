@@ -217,6 +217,20 @@ nav {
     margin-right: 5px;
 }
 
+.content_dark .modal-content {
+    background: var(--vt-c-black-soft);
+}
+
+.content_dark button.btn-close {
+    filter: invert(1);
+    opacity: 1;
+}
+
+.content_dark a {
+    color: #00ff00;
+    text-decoration: underline;
+}
+
 @media (hover: hover) {
     a:hover {
         background-color: hsl(0deg 0% 100% / 10%);
