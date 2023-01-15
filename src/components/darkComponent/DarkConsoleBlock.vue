@@ -23,7 +23,7 @@
                                     <RouterLink to="/portfolio" @click="openMenu">Portfolio
                                     </RouterLink>
                                     <a href="https://github.com/SoloEgo?tab=repositories" target="_blank"><i
-                                            class="bi bi-github"></i>My GitHub</a>
+                                            class="bi bi-github me-2"></i>My GitHub</a>
                                     <a href="Egor-Soloviev-CV.pdf" download>Download CV</a>
                                     <a href="mailto:egorsoloviev.web@gmail.com">Contact me</a>
                                     <a href="#" data-bs-toggle="modal" data-bs-target="#changeThemeModal">Change
