@@ -8,7 +8,7 @@ import json from "@/assets/portfolio.json";
         <template #image><img :src="project.image"></template>
         <template #title >{{ project.title }}</template>
         <template #summary>{{ project.summary }}</template>
-        <template #moreButton><a class="btn btn-primary" @click="showDescription(project.title)" data-bs-toggle="modal" data-bs-target="#staticBackdrop">More</a></template>
+        <template #moreButton><a class="btn btn-primary white-color" @click="showDescription(project.title)" data-bs-toggle="modal" data-bs-target="#staticBackdrop">More</a></template>
     </PortfolioItem>
     <div class="modal fade modal-lg" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
         aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -54,6 +54,10 @@ export default {
 
 .portfolio .hidden {
     display: none;
+}
+
+a.white-color{
+    color: #ffffff;
 }
 
 </style>

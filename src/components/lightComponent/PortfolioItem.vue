@@ -9,7 +9,7 @@
             <p class="card-text">
                 <slot name="summary"></slot>
             </p>
-            <div class="card-button-row">
+            <div class="card-button-row white-color-link">
                 <slot name="moreButton"></slot>
             </div>
         </div>
