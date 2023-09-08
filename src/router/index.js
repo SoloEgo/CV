@@ -3,7 +3,6 @@ import HomeView from '../views/HomeView.vue'
 import DarkHomeView from '../views/DarkHomeView.vue'
 import firebase from 'firebase/compat/app'
 import store from '@/store'
-console.log(store.state.isLightTheme)
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -32,6 +31,21 @@ const router = createRouter({
           {
             name: 'description',
             content: 'This is the app provides my CV',
+            auth: false
+          }
+        ]
+      }
+    },
+    {
+      path: '/privacy_policy',
+      name: 'privacy_policy',
+      component: () => import('@/views/PrivacyPolicy.vue'),
+      meta: {
+        title: 'Privacy Policy',
+        metaTags: [
+          {
+            name: 'description',
+            content: 'Privacy Policy',
             auth: false
           }
         ]
